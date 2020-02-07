@@ -1,0 +1,83 @@
+.promo {
+    min-height: 680px;
+    padding: 23px 0 81px 0;
+    background: url('../img/bgplane.jpg') center (center / cover) no-repeat;
+    &__preheader {
+        color: #ffffff;
+        font-family: 'Roboto';
+        font-size: 24px;
+        font-weight: 300;
+        text-align: center;
+        margin-top: 9px;
+    }
+    &__header {
+        color: #ec644b;
+        font-family: "Roboto Condensed";
+        font-size: 72px;
+        font-weight: 700;
+        text-transform: uppercase;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 0;
+    }
+    &__subheader {
+        color: #ffffff;
+        font-family: "Roboto Condensed";
+        font-size: 42px;
+        font-weight: 400;
+        text-transform: uppercase;
+        text-align: center;
+        line-height: 30px;
+        margin-bottom: 0;
+    }
+    &__wrapper_divider {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    &__divider_1 {
+        margin: 38px 12px 27px 0;
+        width: 388px;
+        height: 1px;
+        background-color: #fff;
+    }
+    &__divider_2 {
+        margin: 38px 0 27px 12px;
+        width: 388px;
+        height: 1px;
+        background-color: #fff;
+    }
+    &__dot {
+        width: 10px;
+        height: 10px;
+        background-color: #fff;
+        border-radius: 100%;
+        margin-top: 10px;
+    }
+    &__icons {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        
+    }
+    &__icon {
+       display: flex;
+       flex-direction: column;
+       width: 265px;
+       img {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        }
+    }
+    &__descr {
+        color: #ffffff;
+        font-family: 'Roboto';
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 22px;
+        text-align: center;
+    }
+}
+

@@ -1,0 +1,42 @@
+.plan {
+    min-height: 454px;
+    padding: 51px 0 46px 0;
+    background-color: #f3f3f3;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-wrap: wrap;
+    }
+    &__item {
+        width: 258px;
+        margin-top: 29px;
+        margin-bottom: 15px;
+    }
+    &__img {
+        display: block;
+        margin: 0 auto;
+    }
+    &__header {
+        color: #ec644b;
+        font-family: "Roboto";
+        font-size: 16px;
+        font-weight: 700;
+        text-align: center;
+        margin-top: 14px;
+    }
+    &__descr {
+        color: #3a3a3a;
+        font-family: 'Roboto';
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 20px;
+        text-align: center;
+    }
+    &__item_ml {
+        margin-left: 150px;
+    }
+    &__item_mr {
+        margin-right: 150px;
+    }
+}

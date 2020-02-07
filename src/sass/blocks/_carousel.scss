@@ -1,0 +1,48 @@
+.carousel {
+    min-height: 470px;
+    padding: 51px 0 65px 0;
+    &__inner {
+        position: relative;
+        margin: 31px auto 0 auto;
+        width: 601px;
+    } 
+    &__img {
+        margin: 0 auto;
+        z-index: 5;
+    }
+    &__name {
+        color: #3a3a3a;
+        font-family: 'Roboto';
+        line-height: 22.01px;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 700;   
+        margin-top: 19px;
+    }
+    &__descr {
+        font-family: 'Roboto';
+        font-size: 14px;
+        line-height: 22.01px;
+        text-align: center;
+        font-weight: 300;    
+        margin-top: 16px;    
+
+    }
+    .slick-prev, .slick-next {
+        position: absolute;
+        top: 22%;
+        transform: translateY(-50%);
+        left: 180px;
+        border: none;
+        background: rgba(255,255,255, 0);
+        z-index: 1;
+        img {
+            width: 14px;
+            height: 46px;
+        }
+    } 
+    .slick-next {
+        right: 180px;
+        left: auto;
+    }   
+}

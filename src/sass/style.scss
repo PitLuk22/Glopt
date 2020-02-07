@@ -1,0 +1,33 @@
+@import 'libs/bootstrap-reboot.min';
+@import 'libs/bootstrap-grid.min';
+@import 'libs/fonts';
+@import 'libs/slick';
+
+
+@import 'blocks/header';
+@import 'blocks/promo';
+@import 'blocks/buttons';
+@import 'blocks/advantages';
+@import 'blocks/title';
+@import 'blocks/work';
+@import 'blocks/agent';
+@import 'blocks/managers';
+@import 'blocks/price';
+@import 'blocks/forms';
+@import 'blocks/plan';
+@import 'blocks/carousel';
+@import 'blocks/questions';
+@import 'blocks/footer';
+@import 'base/variables';
+@import 'blocks/modal';
+@import 'blocks/pageup';
+@import 'blocks/media';
+
+
+* {
+    font-family: 'Roboto', 'Roboto Condensed', sans-serif ;
+}
+.container {
+    max-width: 1145px;
+    margin: 0 auto;
+}

@@ -1,0 +1,36 @@
+.work {
+    min-height: 619px;
+    padding: 51px 0 57px 0;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    &__block {
+        margin-top: 37px;
+    }
+    &__descr {
+        width: 359px;
+        margin-top: 20px;
+    }
+    &__header {
+        color: #ec644b;
+        font-family: "Roboto";
+        font-size: 18px;
+        font-weight: 700;
+        text-align: center;
+    }
+    &__text {
+        color: #3a3a3a;
+        font-family: 'Roboto';
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 22px;
+        text-align: justify;
+        margin-top: 5px;
+        span {
+            display: block;
+            text-align: center;
+        }
+    }
+}

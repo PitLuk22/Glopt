@@ -1,0 +1,62 @@
+.header {
+    display: flex;
+    &__menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+        list-style-type: none;
+        margin: 0;
+        padding: 0 37px 0 42px;
+        &_item {
+            border-right: 1px dotted black;
+            padding: 0 13px 0 13px;
+            &:last-child {
+                border-right: none;
+            }
+        }
+        &_link {
+            color: #ffffff;
+            font-family: 'Roboto';
+            font-size: 15px;
+            font-weight: 400;
+            line-height: 16.71px;
+            &:hover {
+                color: #ec644b;
+            }
+        }
+    }  
+    &__contacts {
+        display: flex;
+        flex-direction: column;
+        padding-right: 19px;
+        margin-top: 25px;
+        &_question {
+            color: #ffffff;
+            font-family: 'Roboto';
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 24px;
+            text-align: right;
+        }
+        &_phone {
+            a {
+            color: #ffffff;
+            font-family: 'Roboto';
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 24px;
+            &:hover {
+                text-decoration: none;
+                color: #ec644b;
+                }
+            }
+        }
+    }
+    .humburger {
+        display: none;
+    }
+    &__appeal {
+        display: flex;
+    }
+}

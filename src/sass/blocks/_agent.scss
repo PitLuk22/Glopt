@@ -1,0 +1,33 @@
+.agent {
+    min-height: 342px;
+    padding: 58px 0 75px 0;
+    background:url('../../img/bg_agent.jpg') center (center / cover) no-repeat;
+    &__img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 102px;
+        height: 102px;
+        border: 1px solid #ffffff;
+        border-radius: 100%;
+        margin: 0 auto;
+    }
+    &__header {
+        color: #ffffff;
+        font-family: 'Roboto';
+        font-size: 26px;
+        font-weight: 700;
+        line-height: 23px;
+        text-align: center;
+        margin-top: 20px;
+    }
+    &__subheader {
+        color: #ffffff;
+        font-family: 'Roboto';
+        font-size: 19px;
+        font-weight: 300;
+        line-height: 27px;
+        text-align: center;
+        margin-top: 22px;
+    }
+}

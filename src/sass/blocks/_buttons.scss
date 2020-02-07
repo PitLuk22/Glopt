@@ -1,0 +1,56 @@
+.button {
+    width: 160px;
+    height: 45px;
+    background-color: #ec644b;
+    border-radius: 40px;
+    border: none;
+    color: #ffffff;
+    font-family: 'Roboto';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 22.04px;
+    text-transform: uppercase;
+    margin-top: 24px;
+    transition: 0.5s all;
+    &:hover {
+        box-shadow: 1px 1px 20px black; // X, Y, размытие тени, цвет;
+        background-color: #dc5238;
+    }
+    &_main {
+        display: block;
+        width: 230px;
+        height: 57px;
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 17.35px;
+        margin: 39px auto 0 auto;
+    }
+    &_more {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 22px;
+        margin-top: 0;
+    }
+    &_price {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: -22px;
+        z-index: 2;
+    }
+    &_questions {
+        display: block;
+        margin: 12px auto 15px auto;
+    }
+    &_footer {
+        margin-top: 18px;
+    }
+    &_submit {
+        display: block;
+        width: 200px;
+        height: 55px;
+        margin: 30px auto 0 auto;
+        font-size: 14px;
+    }
+}
